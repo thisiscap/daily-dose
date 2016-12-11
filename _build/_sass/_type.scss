@@ -1,54 +1,21 @@
 // Custom fonts
-@font-face {
-	font-family: 'VisbyCF Medium';
-	src: url('/assets/visby-cf/visbycf-medium-webfont.woff2') format('woff2'), url('/assets/visby-cf/visbycf-medium-webfont.woff2') format('woff');
-	font-weight: 400;
-}
-
-@font-face {
-	font-family: 'VisbyCF Bold';
-	src: url('/assets/visby-cf/visbycf-bold-webfont.woff2') format('woff2'), url('/assets/visby-cf/visbycf-bold-webfont.woff2') format('woff');
-	font-weight: 700;
-}
-
-@font-face {
-	font-family: 'VisbyCF ExtraBold';
-	src: url('/assets/visby-cf/visbycf-extrabold-webfont.woff2') format('woff2'), url('/assets/visby-cf/visbycf-extrabold-webfont.woff2') format('woff');
-	font-weight: 900;
-}
 
 //Typographic styles and touches
 html {
-	font-family: $font-stack-normal;
-	color: $off-black;
-	font-size: 18px;
+	font-size: 20px;
+    font-family: 'Georgia', 'Times', 'Times New Roman', serif;
 	//	Nicer appearence of font
 	text-rendering: optimizeLegibility;
 	-webkit-font-smoothing: antialiased;
 }
 
-strong {
-	font-family: $font-stack-bold;
+h1,
+h2 {
+    font-weight: normal;
+    font-size: 1.5em;
 }
 
-h1 {
-    font-size: 1.38em;
-    font-weight: inherit;
+h2 {
+    font-size: 1em;
+    margin-top: 0.5em;
 }
-
-h3 {
-    color: $pink;
-    font-family: $font-stack-extra-bold;
-}
-
-//h1,
-//h2,
-//h3,
-//h4,
-//h5,
-//h6,
-//p,
-//span,
-//blockquote {
-//	max-width: 600px;
-//}

@@ -1,0 +1,9 @@
+---
+layout: default
+---
+{% for post in site.posts %}
+        <div class="post">
+        {{ post.content }}
+        <p class="post-date">{{ post.date | date_to_long_string }}</p>
+        </div>
+{% endfor %}
