@@ -1,7 +1,7 @@
 name: "Daily dose."
 description: "A photo a day project."
 author: "Chris Porter"
-url: "/photo-a-day"
+url: "http://christopherporter.co.uk/photo-a-day"
 future: false
 exclude: [README.md, Rakefile, node_modules, .editorconfig, .gitattributes, .gitignore]
 permalink: :title
